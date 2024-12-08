@@ -44,3 +44,19 @@ This project focuses on optimizing a Natural Language Processing (NLP) pipeline 
 - CUDA C:
   - Fine-tuned matrix operations and memory management.
   - Used atomic operations and dynamic memory allocation for thread safety.
+
+3- Comparative Analysis:
+  - Execution time reduced for the source code  7.99 seconds (CPU).
+  - Execution time for OpenACC reduced to 0.27543 seconds ( native GPU).
+  - Execution time for OpenACC reduced to 0.257 seconds (optimized GPU).
+  - Execution time for Cuda C reduced to  1.026 seconds (native GPU).
+  - Execution time for Cuda C reduced to 548 milliseconds (optimized GPU).
+  -  Execution time for Cuda Python reduced to  1.026 seconds (native GPU).
+  - Execution time for Cuda Python reduced to 548 milliseconds (optimized GPU).
+  - Profiling results guided iterative optimization for balanced performance.
+
+
+## Conclusion
+
+This project demonstrates how GPU programming can drastically reduce computational time for NLP applications. The comparative analysis of OpenACC, CUDA Python, and CUDA C highlights the trade-offs between ease of programming and performance, showcasing GPU acceleration as a powerful tool for scalable NLP solutions.
+
