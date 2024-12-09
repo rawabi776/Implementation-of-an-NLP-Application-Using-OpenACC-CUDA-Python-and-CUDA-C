@@ -52,3 +52,7 @@
 - Optimized Implementation:
     - Scales efficiently with larger datasets by leveraging streams and optimizing memory management.
 
+## How to  Run 
+
+1- !python 03-python-code.py
+2- !nsys profile -o python_report python 03-python-code.py
