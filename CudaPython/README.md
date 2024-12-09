@@ -35,4 +35,28 @@
 - Performance:
    - Improved execution time over the native version.
    - Enhanced GPU utilization and reduced overhead.
+ 
+Enhancements in Optimized Version
+
+1- Memory Management:
+- Moved frequently accessed data (weights and biases) to shared memory.
+- Reduced global memory latency, enhancing overall performance.
+
+2- Thread Synchronization:
+- Added cuda.syncthreads() to ensure consistent weight and bias updates.
+- Minimized race conditions and improved data integrity.
+
+3- Grid and Block Configuration:
+- Optimized the number of blocks and threads per block for better GPU utilization.
+- Calculated shared memory size dynamically based on features.
+
+4- Atomic Operations:
+- Improved atomic weight updates with strided access patterns.
+- Reduced contention and enhanced throughput.
+
+5- Execution Time:
+- Achieved faster training time due to shared memory and kernel optimizations.
+- Improved concurrency between threads.
+
+
 
