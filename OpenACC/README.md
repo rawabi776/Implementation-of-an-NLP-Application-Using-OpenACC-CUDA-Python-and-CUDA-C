@@ -40,3 +40,11 @@
 
 4- Memory Allocation Enhancements:
 - Efficient resizing strategies for arrays reduce overhead from frequent reallocations.
+
+## How to Run
+
+Run the two commands below: 
+
+1- !nvcc -o nlp-code1 -I/opt/nvidia/hpc_sdk/Linux_x86_64/21.3/cuda/11.2/include nlp1.c -lnvToolsExt && echo "Compilation Successful!" && ./nlp-code1
+
+2- !nsys profile -t nvtx --stats=true --force-overwrite=true -o nlp-profile ./nlp-code1
