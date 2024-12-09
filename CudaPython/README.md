@@ -61,7 +61,7 @@ Enhancements in Optimized Version
 
 ## How to Run: 
 
-Run the below commands: 
+- Run the below commands: 
 1- !python 02-python-code.py
 2- !nsys profile -o profile_report python 02-python-code.py
 
