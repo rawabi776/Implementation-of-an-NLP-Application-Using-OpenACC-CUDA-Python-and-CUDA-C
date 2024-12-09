@@ -51,8 +51,8 @@ This project focuses on optimizing a Natural Language Processing (NLP) pipeline 
   - Execution time for OpenACC reduced to 0.257 seconds (optimized GPU).
   - Execution time for Cuda C reduced to  1.026 seconds (native GPU).
   - Execution time for Cuda C reduced to 548 milliseconds (optimized GPU).
-  -  Execution time for Cuda Python reduced to  1.026 seconds (native GPU).
-  - Execution time for Cuda Python reduced to 548 milliseconds (optimized GPU).
+  -  Execution time for Cuda Python reduced to  1.46 seconds (native GPU).
+  - Execution time for Cuda Python reduced to 0.65 seconds (optimized GPU).
   - Profiling results guided iterative optimization for balanced performance.
 
 
